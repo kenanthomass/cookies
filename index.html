@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenan's Holiday Cookies</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>Kenan's Holiday Cookies</h1>
+            <p>Click on a cookie to view its recipe</p>
+        </header>
+        
+        <div class="table">
+            <div class="cookies-container">
+                <!-- Cookies will be added here by JavaScript -->
+            </div>
+        </div>
+        
+        <div id="recipe-modal" class="modal">
+            <div class="modal-content">
+                <button class="close-modal">×</button>
+                <h2 id="recipe-title">Cookie Recipe</h2>
+                <div id="recipe-details"></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
